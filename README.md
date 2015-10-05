@@ -4,7 +4,7 @@ Simple library for generating QR code.
 ## Install
 
 ```
-composer require mikicaivosevic/zf2-qrcode-bitcoin:dev-master
+composer require mikicaivosevic/zf2-qrcode-bitcoin
 ```
 
 You need to register new module. Add in file **config/application.config.php**:
