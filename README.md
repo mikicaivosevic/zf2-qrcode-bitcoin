@@ -21,6 +21,7 @@ The module is ready to use.
 ## Using in View
 
 ```
+<?php echo $this->btc_qrcode($address, $amount); ?>
 <?php echo $this->btc_qrcode("1J19TLLqu8DH2cv3ze7g1xZNwyyXWyGLKc","1.32"); ?>
 ```
 
