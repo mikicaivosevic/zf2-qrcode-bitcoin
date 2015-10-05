@@ -1,5 +1,5 @@
 # ZF2 QR Code Generator Helper
-Simple library for generating qr code.
+Simple library for generating QR code.
 
 ## Install
 
