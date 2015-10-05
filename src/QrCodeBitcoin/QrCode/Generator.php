@@ -9,7 +9,9 @@
 namespace QrCodeBitcoin\QrCode;
 
 
-class Generator
+use Zend\View\Helper\AbstractHelper;
+
+class Generator extends AbstractHelper
 {
     public function __invoke($address, $amount)
     {
