@@ -1,0 +1,26 @@
+{
+    "name": "mikica/zf2-qrcode-bitcoin",
+    "description": "Create bitcoin QR code - Zend 2 form helper",
+    "keywords": ["zf2", "bitcoin", "qrcode"],
+    "type": "library",
+    "homepage": "http://www.github.com/mikicaivosevic/zf2-qrcode-bitcoin",
+    "require": {
+        "php": ">=5.5",
+        "zendframework/zendframework": "2.5.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikica Ivosevic",
+            "email": "mikica.ivosevic@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "QrCodeBitcoin": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    }
+}
