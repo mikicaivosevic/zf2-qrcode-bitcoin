@@ -20,8 +20,9 @@ The module is ready to use.
 
 ## Using in View
 
-```
-<?php echo $this->btc_qrcode($address, $amount, $width, $height); //width and height are optional. ?>
+```php
+//width and height are optional.
+<?php echo $this->btc_qrcode($address, $amount, $width, $height); ?>
 <?php echo $this->btc_qrcode("1J19TLLqu8DH2cv3ze7g1xZNwyyXWyGLKc","1.32"); ?>
 ```
 
