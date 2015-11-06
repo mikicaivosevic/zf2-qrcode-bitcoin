@@ -13,7 +13,7 @@ use Zend\View\Helper\AbstractHelper;
 
 class Generator extends AbstractHelper
 {
-    public function __invoke($address, $amount, $width=300, $height=300)
+    public function __invoke($address, $amount, $width = 300, $height = 300)
     {
         $image = "https://chart.googleapis.com/chart?chs={$width}x{$height}&cht=qr&chl=bitcoin:{$address}?amount={$amount}";
         $imageFile = file_get_contents($image);
